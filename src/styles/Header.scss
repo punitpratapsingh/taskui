@@ -1,0 +1,15 @@
+.site-layout .header-class{
+    background-color: rgb(110, 101, 101);
+    padding: 0px 50px 0 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 3;
+    transition: background .3s;
+    &.scrolled{
+      background-color: var(--sidebar);
+      box-shadow: 6px -2px 10px -3px rgba(0, 0, 0, 0.13);
+    }
+}
